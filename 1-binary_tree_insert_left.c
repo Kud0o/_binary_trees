@@ -4,8 +4,8 @@
 
 /**
  * binary_tree_insert_left - add a leaf to left
- * @parent - parent node that needs left leaf
- * @value - value of left leaf
+ * @parent: parent node that needs left leaf
+ * @value: value of left leaf
  * Return: A pointer to added left node if exists otherwise NULL
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
