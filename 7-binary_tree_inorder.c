@@ -4,14 +4,12 @@
  * binary_tree_inorder - Prints node in order ( DFS )
  * @tree: Pointer to the root node
  * @func: Pointer to function neede to be applied on nodes values
- *
- * Return: Nothing
  */
 
 
 void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))
 {
-if (tree == NULL || func == NULL)
+if (!tree || !func)
 {
 return;
 }
