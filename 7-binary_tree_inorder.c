@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_inorder - Inserts a node as the right-child of another node
- * @parent: Pointer to the node to insert the right-child in
- * @value: Integer value to store in the new node
+ * binary_tree_inorder - Prints node in order ( DFS )
+ * @tree: Pointer to the root node
+ * @func: Pointer to function neede to be applied on nodes values
  *
- * Return: Pointer to the created node, or NULL on failure or if parent is NULL
+ * Return: Nothing
  */
 
 
