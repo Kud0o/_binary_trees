@@ -13,7 +13,7 @@ if (node == NULL)
 {
 return (0);
 }
-if(node->parent == NULL)
+if (node->parent == NULL)
 {
 return (1);
 }
