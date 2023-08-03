@@ -4,8 +4,6 @@
  * binary_tree_inorder - Prints node in order ( DFS )
  * @tree: Pointer to the root node
  * @func: Pointer to function neede to be applied on nodes values
- *
- * Return: Nothing
  */
 
 
