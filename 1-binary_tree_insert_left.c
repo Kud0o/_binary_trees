@@ -27,7 +27,7 @@ parent->left->parent = new_node;
 parent->left = new_node;
 return (parent->left);
 }
-if (parent->left != NULL)
+if (parent->left == NULL)
 {
 parent->left = new_node;
 return (parent->left);
